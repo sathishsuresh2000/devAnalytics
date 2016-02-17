@@ -33,6 +33,7 @@
 
   * Navigate to the path where you checked out the application.
   * Go to the **app** folder
+  * Update the **config.json** with appropriate **username**, **password**, **dbName**, **environment** and **port**
   * do **npm install** . It will **install** all the **dependencies** required to run the application.
   * do **npm run start** to start the application.
   * Application will be available on **http://localhost:3000**
