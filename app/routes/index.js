@@ -5,7 +5,7 @@ var express = require("express"),
 var inventoryReportRouter = require("./inventoryReportRoute");
 
 router.get("/", function (req, res) {
-  res.sendfile('public/index.html');
+  res.sendFile('public/index.html');
 });
 
 router.use("/report", inventoryReportRouter);
