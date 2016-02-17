@@ -1,0 +1,14 @@
+node_modules
+dist
+.idea
+npm-debug.log
+coverage
+.DS_Store
+*.orig
+docs
+.tags
+.tags1
+spec/reports
+coverage
+app/externals/sandbox
+**/jsconfig.json
