@@ -3,8 +3,6 @@
 var reviewApp = angular.module('app');
 
 reviewApp.controller('reportController', ['$scope', 'GetReport', function ($scope, GetReport) {
-  $scope.title = "Home Controller";
-  $scope.list = ['node', 'grunt'];
   $scope.reportFilterType = 'DAY';
 
   $scope.updateReport = function () {
